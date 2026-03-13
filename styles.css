@@ -1,13 +1,13 @@
 body {
     background-color: palegoldenrod;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
 p{
     line-height: 2.25em;
 }
 img {
-    width:350px;
+    width:380px;
     float:left;
     border:solid 3px black;
     border-radius: 6px;
@@ -17,29 +17,86 @@ img {
 
 #MIT{
     float:right;
-    width:320px;
+    width:350px;
     margin-left:20px
 }
 
-div{
+h1,h2{
     text-align:center;
-    font-size:30px;
+    font-size:50px;
+}
+
+h2{
+    font-size:40px;
 }
 
 .title{
     text-align:center;
     font-size:25px;
+    padding:30px;
+    padding-bottom: 0px;
 }
 
 .body{
-    font-size:18px
-}
-
-a:hover {
-  color: red;
-  font-size: 18px;
+    font-size:17px
 }
 
 h1,h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px
+}
+
+.highlight{
+    background-color: #E5D0E3;
+}
+
+a:link{
+    color: red;
+    font-weight: bold;
+}
+
+a:visited{
+    color:darkred
+}
+
+a:hover {
+  color: darkmagenta;
+  color: magenta;
+  font-size: 18px;
+}
+
+#sidebar{
+    background-color: lightcoral;
+    border:solid black 3px;
+    padding: 20px;
+    width:250px;
+    float:right;
+    margin-left:20px;
+    margin-bottom:20px;
+    border-radius: 9px;
+    padding:20px;
+    padding-bottom: 105px
+}
+
+ul{
+    line-height: 2em;
+}
+
+@media (max-width:1200px){
+    #container{
+        width:800px;
+    }
+}
+
+@media (max-width:992px){
+    #container{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
 }
