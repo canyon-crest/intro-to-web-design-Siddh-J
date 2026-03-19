@@ -1,5 +1,5 @@
 body {
-    background-color: palegoldenrod;
+    background-color: #eee8aa;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
@@ -71,7 +71,7 @@ a:hover {
 }
 
 #sidebar{
-    background-color: lightcoral;
+    background-color: #f08080;
     border:solid black 3px;
     padding: 20px;
     width:250px;
@@ -124,14 +124,13 @@ ul{
 }
 
 body{
-    background: linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background: linear-gradient(-45deg,#23d5ab,#78C0E0,#EDD83D,#FC814A,#23d5ab,#78C0E0);
     background-size: 400% 400%;
-    animation: gradientShift 15s ease infinite;
+    animation: gradientShift 30s linear infinite;
     min-height:100vh;
 }
 
-@keyframes gradientshift {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 1000% 50%;}
-    100% {background-position: 0% 50%;}
+@keyframes gradientShift {
+    0% {background-position: 0% 0%;}
+    100% {background-position: 100% 100%;}
 }
